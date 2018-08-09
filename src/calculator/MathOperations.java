@@ -12,46 +12,55 @@ package calculator;
 
 import static java.lang.Math.pow;
 import java.math.*;
+import java.util.ArrayList;
 
 public class MathOperations 
 {
     double number1 = 0;
     double number2 = 0;
     double result = 0;
+    double startNumber = 0;
+    ArrayList<String> calculationArrayList = new ArrayList<>();
     
-    public double add(double number1,double number2)
+    public void displayPressedKey()
     {
-        result = number1 + number2;
-        return result;
+        
     }
     
-    public double subtract(double number1, double number2)
+    public void add(double number1,double number2)
     {
-        result = number1 - number2;
-        return result;
+      
+      //  result = number1 + number2;
+      //  return result;
     }
     
-    public double multiply(double number1, double number2)
+    public void subtract(double number1, double number2)
     {
-        result = number1 * number2;
-        return result;
+       // result = number1 - number2;
+       // return result;
     }
     
-    public double divide(double number1, double number2)
+    public void multiply(double number1, double number2)
     {
-        result = number1/number2;
-        return result;
+      //  result = number1 * number2;
+      //  return result;
     }
     
-    public double square(double number1)
+    public void divide(double number1, double number2)
     {
-        result = number1 *= number1;
-        return result;
+      //  result = number1/number2;
+      //  return result;
     }
     
-    public double squareRoot(double number1)
+    public void square(double number1)
     {
-        result = pow(number1,0.5);
-        return result;
+       // result = number1 *= number1;
+      //  return result;
+    }
+    
+    public void squareRoot(double number1)
+    {
+      //  result = pow(number1,0.5);
+      //  return result;
     }
 }
